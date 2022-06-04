@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/humzaa-omar/embedded-caddy-cli/main/show/types/caddy/types.json",
   "apps": {
     "http": {
       "servers": {
@@ -50,5 +51,8 @@
         }
       }
     }
+  },
+  "admin": {
+    
   }
 }

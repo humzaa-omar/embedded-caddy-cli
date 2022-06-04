@@ -4,6 +4,7 @@ import type { LoggingConfig } from './lib/logging/logging'
 
 import { StorageConfig } from './lib/storage/storage'
 export declare interface CaddyJSON {
+  $schema?: string
   admin?: AdminConfig
   logging?: LoggingConfig
   storage?: StorageConfig

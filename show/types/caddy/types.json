@@ -869,6 +869,9 @@
     "CaddyJSON": {
       "additionalProperties": false,
       "properties": {
+        "$schema": {
+          "type": "string"
+        },
         "admin": {
           "$ref": "#/definitions/AdminConfig"
         },
