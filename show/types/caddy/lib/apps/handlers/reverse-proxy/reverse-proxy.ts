@@ -5,7 +5,7 @@ import { SelectionPolicy } from './selection-policy/selection-policy'
 import { Transport } from './transport/transport'
 
 export interface ReverseProxy {
-  handler?: 'reverse_proxy' | string
+  handler?: 'reverse_proxy'
   transport?: Transport
   circuit_breaker?: unknown
   load_balancing?: {

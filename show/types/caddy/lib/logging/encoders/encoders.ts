@@ -13,7 +13,7 @@ export interface NonStandardEncoder {
 }
 
 export interface ConsoleEncoder {
-  format?: 'console' | string
+  format?: 'console'
   message_key?: string
   level_key?: string
   time_key?: string
@@ -27,7 +27,7 @@ export interface ConsoleEncoder {
 }
 
 export interface JSONEncoder {
-  format?: 'json' | string
+  format?: 'json'
   message_key?: string
   level_key?: string
   time_key?: string
@@ -44,7 +44,7 @@ export interface JSONEncoder {
  * @deprecated Do not use. It will eventually be removed from the standard Caddy modules. For more information, see https://github.com/caddyserver/caddy/issues/3575.
  */
 export interface LogfmtEncoder {
-  format?: 'logfmt' | string
+  format?: 'logfmt'
   message_key?: string
   level_key?: string
   time_key?: string
@@ -64,7 +64,7 @@ export interface FilterEncoder {
 }
 
 export interface SingleFieldEncoder {
-  format?: 'single_field' | string
+  format?: 'single_field'
   field?: string
   fallback?:
     | ConsoleEncoder

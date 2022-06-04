@@ -1,3 +1,3 @@
 export interface RandomSelectionPolicy {
-  policy?: 'random' | string
+  policy?: 'random'
 }

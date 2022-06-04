@@ -1,5 +1,5 @@
 export interface RPTransportHTTP {
-  protocol?: 'http' | string
+  protocol?: 'http'
   resolver?: {
     address?: string[]
   }

@@ -2,7 +2,7 @@ import { Match } from '../matchers/match'
 import { Handlers } from './handlers'
 
 export interface Subroute {
-  handler?: 'subroute' | string
+  handler?: 'subroute'
   routes?: [
     {
       group?: string

@@ -1,9 +1,9 @@
 export interface HTTPRedirectListenerWrapper {
-  wrapper?: 'http_redirect' | string
+  wrapper?: 'http_redirect'
 }
 
 export interface TLSPlaceholderWrapper {
-  wrapper?: 'tls' | string
+  wrapper?: 'tls'
 }
 
 export interface NonStandardWrapper {

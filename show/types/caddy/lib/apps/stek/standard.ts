@@ -1,3 +1,3 @@
 export interface StandardKey {
-  provider?: 'standard' | string
+  provider?: 'standard'
 }

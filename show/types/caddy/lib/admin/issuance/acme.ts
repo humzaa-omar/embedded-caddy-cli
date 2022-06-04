@@ -1,5 +1,5 @@
 export interface ACMEIssuer {
-  module?: 'acme' | string
+  module?: 'acme'
   ca?: string
   test_ca?: string
   email?: string

@@ -1,4 +1,4 @@
 export interface VarsMiddleware {
-  handler?: 'vars' | string
+  handler?: 'vars'
   [key: string]: unknown
 }

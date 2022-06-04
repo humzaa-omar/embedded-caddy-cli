@@ -1,5 +1,5 @@
 export interface ACMEServerHandler {
-  handler?: 'acme_server' | string
+  handler?: 'acme_server'
   ca?: string
   host?: string
   path_prefix?: string

@@ -1,3 +1,3 @@
 export interface IPHashSelectionPolicy {
-  policy?: 'ip_hash' | string
+  policy?: 'ip_hash'
 }

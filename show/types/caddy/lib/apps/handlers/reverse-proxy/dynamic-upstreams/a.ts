@@ -1,5 +1,5 @@
 export interface ALookup {
-  source?: 'a' | string
+  source?: 'a'
   name?: string
   port?: string
   refresh?: number

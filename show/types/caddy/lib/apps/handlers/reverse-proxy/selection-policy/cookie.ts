@@ -1,5 +1,5 @@
 export interface CookieSelectionPolicy {
-  policy?: 'cookie' | string
+  policy?: 'cookie'
   name?: string
   secret?: string
 }

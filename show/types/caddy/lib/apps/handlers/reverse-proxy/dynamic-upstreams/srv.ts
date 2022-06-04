@@ -1,5 +1,5 @@
 export interface SRVLookup {
-  source?: 'srv' | string
+  source?: 'srv'
   service?: string
   proto?: string
   name?: string

@@ -1,4 +1,4 @@
 export interface HeaderSelectionPolicy {
-  policy?: 'header' | string
+  policy?: 'header'
   field?: string
 }

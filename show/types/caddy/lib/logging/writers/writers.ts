@@ -7,19 +7,19 @@ export type LogWriters =
   | NonStandardWriter
 
 export interface DiscardWriter {
-  output?: 'discard' | string
+  output?: 'discard'
 }
 
 export interface StderrWriter {
-  output?: 'stderr' | string
+  output?: 'stderr'
 }
 
 export interface StdoutWriter {
-  output?: 'stdout' | string
+  output?: 'stdout'
 }
 
 export interface FileWriter {
-  output?: 'file' | string
+  output?: 'file'
   filename?: string
   roll?: boolean
   roll_size_mb?: number
@@ -30,7 +30,7 @@ export interface FileWriter {
 }
 
 export interface NetWriter {
-  output?: 'net' | string
+  output?: 'net'
   address?: string
   dial_timeout?: number
 }

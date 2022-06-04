@@ -1,5 +1,5 @@
 export interface StaticError {
-  handler?: 'error' | string
+  handler?: 'error'
   error?: string
   status_code?: string
 }

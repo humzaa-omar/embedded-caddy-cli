@@ -1,4 +1,4 @@
 export interface RandomChooseSelectionPolicy {
-  policy?: 'random_choose' | string
+  policy?: 'random_choose'
   choose?: number
 }

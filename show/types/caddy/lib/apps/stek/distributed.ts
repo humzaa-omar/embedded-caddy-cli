@@ -1,6 +1,6 @@
 import { StorageConfig } from '../../storage/storage'
 
 export interface DistributedKey {
-  provider?: 'distributed' | string
+  provider?: 'distributed'
   storage?: StorageConfig
 }

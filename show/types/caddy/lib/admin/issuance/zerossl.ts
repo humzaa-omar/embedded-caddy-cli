@@ -1,5 +1,5 @@
 export interface ZeroSSLIssuer {
-  module?: 'zerossl' | string
+  module?: 'zerossl'
   ca?: string
   test_ca?: string
   email?: string

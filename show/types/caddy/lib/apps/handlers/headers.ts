@@ -1,5 +1,5 @@
 export interface HeadersMiddleware {
-  handler?: 'headers' | string
+  handler?: 'headers'
   request?: {
     add?: {
       [key: string]: string[]

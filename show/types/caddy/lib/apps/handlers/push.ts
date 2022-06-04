@@ -1,5 +1,5 @@
 export interface PushHandler {
-  handler?: 'push' | string
+  handler?: 'push'
   resources?: [
     {
       method?: string

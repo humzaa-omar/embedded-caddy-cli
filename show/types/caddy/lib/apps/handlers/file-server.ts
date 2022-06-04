@@ -1,7 +1,7 @@
 import { Encodings } from './encode'
 
 export interface FileServer {
-  handler?: 'file_server' | string
+  handler?: 'file_server'
   root?: string
   hide?: string[]
   index_names?: string[]

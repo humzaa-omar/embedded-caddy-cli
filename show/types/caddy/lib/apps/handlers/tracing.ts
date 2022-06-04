@@ -1,4 +1,4 @@
 export interface TracingHandler {
-  handler?: 'tracing' | string
+  handler?: 'tracing'
   span?: string
 }

@@ -1,3 +1,3 @@
 export interface LeastConnSelectionPolicy {
-  policy?: 'least_conn' | string
+  policy?: 'least_conn'
 }

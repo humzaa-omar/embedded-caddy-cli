@@ -1,5 +1,5 @@
 export interface InternalIssuer {
-  module?: 'internal' | string
+  module?: 'internal'
   ca?: string
   lifetime?: number
   sign_with_root?: boolean

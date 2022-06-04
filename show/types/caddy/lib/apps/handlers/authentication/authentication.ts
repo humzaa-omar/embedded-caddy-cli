@@ -1,6 +1,6 @@
 import { Providers } from './providers'
 
 export interface Authentication {
-  handler?: 'authentication' | string
+  handler?: 'authentication'
   providers?: Providers
 }

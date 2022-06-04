@@ -1,4 +1,4 @@
 export interface MetricsHandler {
-  handler?: 'metrics' | string
+  handler?: 'metrics'
   disable_openmetrics?: boolean
 }

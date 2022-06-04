@@ -14,10 +14,10 @@ export interface NonStandardFilter {
 }
 
 export interface CookieFilter {
-  filter?: 'cookie' | string
+  filter?: 'cookie'
   actions?: [
     {
-      type?: 'replace' | 'hash' | 'delete' | string
+      type?: 'replace' | 'hash' | 'delete'
       name?: string
       value?: string
     },
@@ -25,15 +25,15 @@ export interface CookieFilter {
 }
 
 export interface DeleteFilter {
-  filter?: 'delete' | string
+  filter?: 'delete'
 }
 
 export interface HashFilter {
-  filter?: 'hash' | string
+  filter?: 'hash'
 }
 
 export interface IPMaskFilter {
-  filter?: 'ip_mask' | string
+  filter?: 'ip_mask'
 
   ipv4_cidr?: number
 
@@ -41,10 +41,10 @@ export interface IPMaskFilter {
 }
 
 export interface QueryFilter {
-  filter?: 'query' | string
+  filter?: 'query'
   actions?: [
     {
-      type?: 'replace' | 'hash' | 'delete' | string
+      type?: 'replace' | 'hash' | 'delete'
       name?: string
       value?: string
     },
@@ -52,17 +52,17 @@ export interface QueryFilter {
 }
 
 export interface RegexpFilter {
-  filter?: 'regexp' | string
+  filter?: 'regexp'
   regexp?: string
   value?: string
 }
 
 export interface RenameFilter {
-  filter?: 'rename' | string
+  filter?: 'rename'
   name?: string
 }
 
 export interface ReplaceFilter {
-  filter?: 'replace' | string
+  filter?: 'replace'
   value?: string
 }

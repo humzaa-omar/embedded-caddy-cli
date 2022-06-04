@@ -1,5 +1,5 @@
 export interface TemplatesHandler {
-  handler?: 'templates' | string
+  handler?: 'templates'
   file_root?: string
   mime_types?: string[]
   delimiters?: string[]

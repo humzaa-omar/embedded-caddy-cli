@@ -8,7 +8,7 @@ export interface AdminConfig {
   config?: {
     persist?: boolean
     load?: {
-      module?: 'http' | string
+      module?: 'http'
       method?: string
       url?: string
       header?: {

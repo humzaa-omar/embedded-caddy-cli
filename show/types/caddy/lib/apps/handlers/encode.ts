@@ -1,5 +1,5 @@
 export interface Encode {
-  handler?: 'encode' | string
+  handler?: 'encode'
   encodings?: Encodings
   prefer?: string[]
   minimum_length?: number

@@ -1,5 +1,5 @@
 export interface RewriteHandler {
-  handler?: 'rewrite' | string
+  handler?: 'rewrite'
   method?: string
   uri?: string
   strip_path_prefix?: string

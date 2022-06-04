@@ -1,5 +1,5 @@
 export interface FileStorage {
-  module?: 'file_system' | string
+  module?: 'file_system'
 
   root?: string
 }

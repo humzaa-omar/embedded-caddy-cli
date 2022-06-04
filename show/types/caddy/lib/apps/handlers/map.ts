@@ -1,5 +1,5 @@
 export interface MapHandler {
-  handler?: 'map' | string
+  handler?: 'map'
   source?: string
   destination?: string[]
   mappings?: [

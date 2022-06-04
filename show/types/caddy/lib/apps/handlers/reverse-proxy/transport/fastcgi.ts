@@ -1,5 +1,5 @@
 export interface RPTransportFastCGI {
-  protocol?: 'fastcgi' | string
+  protocol?: 'fastcgi'
   root?: string
   split_path?: string[]
   resolve_root_symlink?: boolean
