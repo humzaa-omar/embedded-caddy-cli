@@ -9,7 +9,7 @@
             {
               "match": [
                 {
-                  "host": ["your.host.name"]
+                  "host": ["10.0.2.1"]
                 }
               ],
               "handle": [
