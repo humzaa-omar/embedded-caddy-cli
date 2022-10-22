@@ -1,0 +1,27 @@
+apps:
+  http:
+    servers:
+      srv0:
+        listen:
+          - :443
+        routes:
+          - match:
+              - host:
+                  - 10.0.2.1
+            handle:
+              - handler: subroute
+                routes:
+                  - handle:
+                      - handler: reverse_proxy
+                        headers:
+                          request:
+                            set:
+                              X-Real-Ip:
+                                - '{http.request.remote}'
+                          response:
+                            set:
+                              Strict-Transport-Security:
+                                - max-age=31536000
+                        upstreams:
+                          - dial: machine-running-actual-service:9000
+            terminal: true
